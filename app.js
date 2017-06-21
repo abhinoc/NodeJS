@@ -1,7 +1,6 @@
-var person = {
-    firstName: "Abhishek",
-    lastName:  "Alevoor",
-    age: 31
+var printRandom = function() {
+  console.log("Just a random stuff!");  
 };
+printRandom();
 
-console.log(person);
+setTimeout(printRandom, 5000);
