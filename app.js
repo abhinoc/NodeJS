@@ -1,14 +1,17 @@
-var Abhi ={
-    favFood:"mutton",
-    favSport:"mma",
+var Abhi = {
+    printFirstName:function(){
+        console.log("Abhi here");
+        console.log(this === Abhi);
+    }
 };
 
-var Person = Abhi;
-
-Person.favSport="Cricket";
-console.log(Abhi.favSport);
+Abhi.printFirstName();
 
 
-console.log(19 == '19');
+// The default calling context is global
+function doSomething(){
+        console.log("\nTesting ....");
+        console.log(this === global);
+}
 
-console.log(19 === '19');
+doSomething();
