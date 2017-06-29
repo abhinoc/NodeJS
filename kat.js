@@ -1,5 +1,6 @@
 var movies = require('./movies');
 
-movies.favMovie = "The Notebook";
+var katMovies = movies();
 
-console.log("Kat's fav movie is:" + movies.favMovie);
+katMovies.favMovie = "The Notebook";
+console.log("Kat's fav movie is :" + katMovies.favMovie);
