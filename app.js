@@ -1,3 +1,7 @@
 var movies = require('./movies');
 
-movies.avatar();
+movies.printAvatar();
+
+movies.printChappie();
+
+console.log(movies.favMovie)

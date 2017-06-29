@@ -1,9 +1,12 @@
-function printAvatar() {
+module.exports = {
+    
+    printAvatar: function () {
     console.log("Avatar");
-}
-
-function printChappie(){
+    },
+    
+    printChappie: function () {
     console.log("Chappie");
-}
-
-module.exports.avatar = printAvatar;
+    },
+    
+    favMovie: "The Matrix"
+};
